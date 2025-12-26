@@ -54,6 +54,7 @@ const ProductDetailModal = ({ productId, onClose }) => {
       price: product.price,
       description: product.description,
       category: product.category,
+      image: product.image,
     })
     setIsEditing(true)
   }
